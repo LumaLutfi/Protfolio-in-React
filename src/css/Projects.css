@@ -1,0 +1,16 @@
+.project-container {
+    display: inline-block;
+    text-align: center;
+}
+.project-image{
+    width: 500px;;
+    height: 500px;
+    
+    background-size: cover;
+}
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

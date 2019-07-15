@@ -1,0 +1,48 @@
+.footer{
+    background-color: #e0b8ed;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    margin: 22px;
+}
+.footer h3{
+font-size: 16px;
+text-transform: uppercase;
+margin: 0;
+padding: 0;
+}
+.footer h2{
+    font-size: 48px;
+    color: white;
+    margin-bottom: 48px;
+    margin-top: 0;
+}
+.footer > .row{
+    display: flex;
+    justify-content: space-around;
+}
+.footer > .row span{
+    background-color: #fff;
+    width: 112px;
+    height: 112px;
+    display: inline-block;
+    border-radius: 50%;
+    color: #9900cc;
+    font-size: 36px;
+    line-height: 120px;
+}
+.footer > .row h4{
+    margin-bottom: 8px;
+    font-family: inherit;
+    font-weight: 1.2;
+    color: inherit;
+    font-size: 24px;
+    color: white
+}
+.footer > .row p{
+    font-size: 16px;
+    color: white
+}
+.footer > .row p ion-icon{
+color: red
+}
