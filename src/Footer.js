@@ -34,7 +34,7 @@ const iconObj = [
 {
     icon:<ion-icon name="brush"></ion-icon>,
     title: 'Redesigned',
-    description: 'Freshly redesigned for Bootstarp'
+    description: 'Freshly redesigned for Bootstrap'
 },
 {
     icon:<ion-icon name="thumbs-up"></ion-icon>,

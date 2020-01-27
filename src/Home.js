@@ -16,18 +16,14 @@ class Home extends Component{
             <div className="container">
             <div style={sectionStyle}>
                 <h1>{this.props.title}</h1>
-                <h2>{this.props.subTitle}</h2>
+                <h2>{this.props.subTitle1}</h2>
+                <h2>{this.props.subTitle2}</h2>
                 <a className="button" href="/Projects">{this.props.button}</a>
             </div>
             </div>
             </div>
-            
-
         );
     }
-}
-    
-            
-        
+}                   
 
 export default Home;

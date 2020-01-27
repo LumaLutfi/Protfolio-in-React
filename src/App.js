@@ -15,9 +15,11 @@ class App extends Component{
       return(
         <BrowserRouter>
             <div className="App">
-          <Navigation logoTitle="Luma AL-Taae"/>
+          <Navigation logoTitle="My Portfolio"/>
           <Route exact path="/" render={()=><Home title="Hello,I'm Luma" 
-          subTitle="I'm a Website Developer/WordPress Developer" button="My Work"/>}/>
+          subTitle1="I'm a Website Developer/WordPress Developer" 
+          subTitle2="I developed my Portfolio using ReactJs, ReactDOM and React-MDL" 
+          button="My Work"/>}/>
            {/*if you dont want to pass ant props just put component */}
            <Route path="/Resume" component={Resume} />
            <Route path="/Services" render={()=><Services />}/>
