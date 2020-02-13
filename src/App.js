@@ -19,7 +19,7 @@ class App extends Component{
               <Navigation logoTitle="My Portfolio"/>
               <Route exact path="/" render={()=><Home title="Hello,I'm Luma" 
               subTitle1="I'm a Website Developer/WordPress Developer" 
-              subTitle2="I developed my Portfolio using ReactJs, ReactDOM and React-MDL" 
+              subTitle2="I developed my Portfolio using ReactJs, ReactDOM, React-MDL and Node.js" 
               button="My Work"/>}/>
               {/*if you dont want to pass ant props just put component */}
               <Route path="/Resume" component={Resume} />

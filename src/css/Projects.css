@@ -1,9 +1,7 @@
 
 
-
 .projects-grid{
-display: inline-block;
-margin: 0;
+display: 'flex';
 
 }
 .projects-text{
