@@ -1,13 +1,19 @@
 import React,{Component} from 'react';
-import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
+import {Grid, Cell, List, ListItem, ListItemContent, Content} from 'react-mdl';
 import './css/contact.css';
+import FormApp from './form/FormApp';
+import './form/FormApp.css';
+
+
 
 class Contact extends Component{
 render(){
     return(
+        
         <div className="contact-body">
+        <Content>
         <Grid className="contact-grid">
-        <Cell col={5}>
+        <Cell col={6}>
         <h1 style={{color:'black'}}>Luma Altaae</h1>
         <img src="https://cdn.impactinit.com/cdn/x/x@82e4a27fd3/smss52/smsimg30/pv/isignstockcontributors/iss_18508_00897.jpg"
         alt='avatar' style={{height:'250px'}}/>
@@ -20,7 +26,7 @@ render(){
         I am open to any new opportunities that are out there in this field.
         </p>
         </Cell>
-        <cell col={7}>
+        <Cell col={6}>
         <h1>Contact Me</h1>
         <hr/>
         <div className='contact-list'>
@@ -52,10 +58,18 @@ render(){
             </ListItem>
             </List>
         </div>
-        </cell>
+        </Cell>
         </Grid>
+        </Content> 
+        <hr style={{borderTop:'3px solid #e22947',width:'50%', margin:'auto'}}/>
+            <Grid>
+            
+                <FormApp/>
+            
+            </Grid> 
         </div>
-    )
+       
+    );
  }
 }
 export default Contact;

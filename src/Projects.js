@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import {Tabs, Tab, Grid, Cell, Card, CardTitle,CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
 import './css/Projects.css';
 
+
 class Projects extends Component{
 constructor(props){
     super(props);
@@ -13,7 +14,7 @@ constructor(props){
             return(
             //JavaScript Project
         <div className="projects-grid">
-            <Card shadow={5} style={{minWidth:'450', margin:'450'}}>
+            <Card shadow={5} style={{minWidth:'250px', margin:'50px'}}>
             <CardTitle style={{color:'#fff', height:'176px', background:'url(https://clipartart.com/images/javascript-icon-clipart-6.png) center/cover'}}>JavaScript Project#1</CardTitle>
             <CardText className="projects-text">
                 This Project for a Resturant. The customer can order online and choose from the menu options. 
@@ -31,11 +32,11 @@ constructor(props){
             </Card> 
         </div> 
             )
-        } else if (this.state.activeTab === 1){
+        } else if (this.state.activeTab === 1 || 2 || 3){
             return(
                 //WordPress Project1
         <div className="projects-grid">
-            <Card className="project-link" shadow={5} style={{minWidth:'450', margin:'450'}}>
+            <Card className="project-link" shadow={5} style={{minWidth:'250px', margin:'50px'}}>
             <CardTitle style={{color:'#fff', height:'176px', background:'url(http://icons.iconarchive.com/icons/graphics-vibe/simple-rounded-social/256/wordpress-icon.png) center/cover'}}>WordPress Project#1</CardTitle>
             <CardText>
                 This Project for an Orgenazation that proved supports and gender equality for pepole how live under poverty. 
@@ -54,7 +55,7 @@ constructor(props){
             </CardMenu>
             </Card>
              {/*WordPress Project2 */}
-            <Card className="project-link" shadow={5} style={{minWidth:'450', margin:'450'}}>
+            <Card className="project-link" shadow={5} style={{minWidth:'250px', margin:'50px'}}>
             <CardTitle style={{color:'#fff', height:'176px', background:'url(http://icons.iconarchive.com/icons/graphics-vibe/simple-rounded-social/256/wordpress-icon.png) center/cover'}}>WordPress Project#2</CardTitle>
             <CardText className="projects-text">
             This Project for an Orgenazation that have a client wanted to start his own business. 
@@ -72,7 +73,7 @@ constructor(props){
             </CardMenu>
             </Card>
             {/*WordPress Project3 */}
-             <Card className="project-link" shadow={5} style={{minWidth:'450', margin:'450'}}>
+             <Card className="project-link" shadow={5} style={{minWidth:'250px', margin:'50px'}}>
             <CardTitle style={{color:'#fff', height:'176px', background:'url(http://icons.iconarchive.com/icons/graphics-vibe/simple-rounded-social/256/wordpress-icon.png) center/cover'}}>WordPress Project#3</CardTitle>
             <CardText className="projects-text"> 
                 This Project for a Resturant. I created this website for a client that own a restaurant.
@@ -150,6 +151,7 @@ constructor(props){
             </div>
         )
     }
+
 };
 
 export default Projects;

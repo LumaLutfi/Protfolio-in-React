@@ -1,18 +1,25 @@
 nav{
-display: flex;
-justify-content: space-between;
+    grid-area: nav;
+    display: grid;
+position: fixed;
+align-items: center;
+justify-items: center;
+grid-template-columns: repeat(4, auto);
 background: #fc00ff;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-align-items: center;
-padding-right: 20px;
-padding-left: 20px;
+width:100%;
+top:0;
+margin: 0;
+z-index:99;
+overflow: auto;
 }
 
 .logo{
     font-size: 30px;
     color: #fff;
+    float:left;
+    padding-left: 10px;
 }
 .logo-link{
 	text-decoration: none;
