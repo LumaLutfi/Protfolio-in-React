@@ -14,7 +14,6 @@ const sectionStyle={
 class Home extends Component{
     render(){
         return(
-            
             <div style={sectionStyle}>
                 <h1>{this.props.title}</h1>
                 <h2>{this.props.subTitle1}</h2>

@@ -27,7 +27,7 @@ constructor(props){
                 <Button colored><a href='https://youtu.be/ekhvpUIYYck'>LiveDemo</a></Button>
             </CardActions>
             <CardMenu style={{color:'#bbb'}}>
-                <IconButton name='share'/>
+                <IconButton name='share'/>share
             </CardMenu>
             </Card> 
             {/*React Project*/}
@@ -161,7 +161,7 @@ constructor(props){
             <Tab>WordPress</Tab> */}
             </Tabs>
             <section>
-                <Grid>
+                <Grid className='projects-grid'>
                 <Cell col={12}>
                     <div>{this.toggleCategories()}</div>
                 </Cell>

@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 
 const Navigation = (props)=>(
   <nav>
-    <h2 className='logo'><a className="logo-link" href='#'>{props.logoTitle}</a></h2>
+    <h2 className='logo'><a className="logo-link" href='/'>{props.logoTitle}</a></h2>
     <ul className="nav-menu">
       <li><NavLink className="nav-menu__link" activeClassName="activate" exact to="/">Home</NavLink></li>
       <li><NavLink className="nav-menu__link" activeClassName="activate" to="/Resume">Resume</NavLink></li>

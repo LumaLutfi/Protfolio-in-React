@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import{Grid, Cell} from 'react-mdl';
+import{Grid, Cell, Content} from 'react-mdl';
 import './css/resume.css';
 import './components/education';
 import Education from './components/education';
@@ -9,17 +9,18 @@ import Skills from './components/skills';
 class Resume extends Component{
     render() {
         return(
-            <div>
+            <div className="contact-body">
+            <Content> 
                 <Grid>
                     <Cell col={4}>
                       <div style={{textAlign:'center'}}>
                         <img src="https://cdn.impactinit.com/cdn/x/x@82e4a27fd3/smss52/smsimg30/pv/isignstockcontributors/iss_18508_00897.jpg"
                         alt='avatar'
-                        style={{height:'200px'}}>
+                        style={{height:'250px',paddingTop:'6em'}}>
                         </img>
                       </div>
                     
-                    <h1 style={{paddingTop:'2em',color:'black',textAlign:'left'}}>Luma Altaae</h1>
+                    <h1 style={{paddingTop:'1em',color:'black',textAlign:'left'}}>Luma Altaae</h1>
                     <h4 style={{color:'gray',textAlign:'left'}}>WEB DEVELOPER</h4>
                     <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                     <p style={{textAlign:'justify'}}>Visionary Junior Front End Developer with more than 1 year of 
@@ -99,6 +100,7 @@ class Resume extends Component{
                      progress={70}/>
                     </Cell>
                 </Grid>
+                </Content>
             </div>
         )
     }

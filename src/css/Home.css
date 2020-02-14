@@ -1,8 +1,7 @@
 div{
     margin: 0 auto;
     text-align: center;
-	padding-top: 30px;	
-	
+	padding-top: 30px;
 }
 
 div h1{
@@ -10,8 +9,10 @@ div h1{
     font-size: 4rem;
     color:white;
 	margin-bottom: 30px;
-	margin-top: 50px;
-	
+	margin-top: 90px;
+	align-content: center;
+	flex-wrap: wrap;
+	padding-top:50px;
 }
 div h2{
     margin: 0;
