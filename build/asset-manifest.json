@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/LumaLutfi/Protfolio-in-React/static/css/main.02a4362a.chunk.css",
+    "main.js": "/LumaLutfi/Protfolio-in-React/static/js/main.104593c5.chunk.js",
+    "main.js.map": "/LumaLutfi/Protfolio-in-React/static/js/main.104593c5.chunk.js.map",
+    "runtime-main.js": "/LumaLutfi/Protfolio-in-React/static/js/runtime-main.26d33f1c.js",
+    "runtime-main.js.map": "/LumaLutfi/Protfolio-in-React/static/js/runtime-main.26d33f1c.js.map",
+    "static/css/2.fbc6c693.chunk.css": "/LumaLutfi/Protfolio-in-React/static/css/2.fbc6c693.chunk.css",
+    "static/js/2.0d128fbb.chunk.js": "/LumaLutfi/Protfolio-in-React/static/js/2.0d128fbb.chunk.js",
+    "static/js/2.0d128fbb.chunk.js.map": "/LumaLutfi/Protfolio-in-React/static/js/2.0d128fbb.chunk.js.map",
+    "index.html": "/LumaLutfi/Protfolio-in-React/index.html",
+    "precache-manifest.16ff31cff63397608a1d1271c01e4b2e.js": "/LumaLutfi/Protfolio-in-React/precache-manifest.16ff31cff63397608a1d1271c01e4b2e.js",
+    "service-worker.js": "/LumaLutfi/Protfolio-in-React/service-worker.js",
+    "static/css/2.fbc6c693.chunk.css.map": "/LumaLutfi/Protfolio-in-React/static/css/2.fbc6c693.chunk.css.map",
+    "static/css/main.02a4362a.chunk.css.map": "/LumaLutfi/Protfolio-in-React/static/css/main.02a4362a.chunk.css.map",
+    "static/js/2.0d128fbb.chunk.js.LICENSE.txt": "/LumaLutfi/Protfolio-in-React/static/js/2.0d128fbb.chunk.js.LICENSE.txt",
+    "static/media/eugene-chystiakov-1381895-unsplash.jpg": "/LumaLutfi/Protfolio-in-React/static/media/eugene-chystiakov-1381895-unsplash.b884e368.jpg",
+    "static/media/FormApp.css": "/LumaLutfi/Protfolio-in-React/static/media/glowing-4634507_960_720.c9e2ab58.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26d33f1c.js",
+    "static/css/2.fbc6c693.chunk.css",
+    "static/js/2.0d128fbb.chunk.js",
+    "static/css/main.02a4362a.chunk.css",
+    "static/js/main.104593c5.chunk.js"
+  ]
+}

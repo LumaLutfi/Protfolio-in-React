@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import{Grid, Cell, Content} from 'react-mdl';
+import{Grid, Cell} from 'react-mdl';
 import './css/resume.css';
 import './components/education';
 import Education from './components/education';
@@ -9,10 +9,9 @@ import Skills from './components/skills';
 class Resume extends Component{
     render() {
         return(
-            <div className="contact-body">
-            <Content> 
+            <div > 
                 <Grid>
-                    <Cell col={4}>
+                    <Cell col={4} className="left-col">
                       <div style={{textAlign:'center'}}>
                         <img src="https://cdn.impactinit.com/cdn/x/x@82e4a27fd3/smss52/smsimg30/pv/isignstockcontributors/iss_18508_00897.jpg"
                         alt='avatar'
@@ -100,7 +99,7 @@ class Resume extends Component{
                      progress={70}/>
                     </Cell>
                 </Grid>
-                </Content>
+            
             </div>
         )
     }

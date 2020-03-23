@@ -6,7 +6,7 @@ import Background from './img/eugene-chystiakov-1381895-unsplash.jpg';
 const sectionStyle={
     backgroundRepeat:'no-repeat',
     height: '100vh',
-    backgroundImage: `url(${Background} )`,
+    backgroundImage: `url(${Background})`,
     backgroundSize:'cover',
     backgroundAttachment:'fixed',
     backgroundPosition: 'center',
@@ -20,6 +20,7 @@ class Home extends Component{
                 <h2>{this.props.subTitle2}</h2>
                 <a className="button" href="/Projects">{this.props.button}</a>
             </div>
+        
         );
     }
 }                   

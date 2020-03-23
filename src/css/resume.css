@@ -2,10 +2,11 @@
 background: #27221f;
 color: white;
 padding: 2em;
-
+z-index: 1;
 }
-.contact-body{
-    justify-content: center;
-    padding-top:2em;
+.left-col{
     
+    
+    z-index: 1;
 }
+

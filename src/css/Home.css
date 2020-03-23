@@ -1,18 +1,16 @@
 div{
     margin: 0 auto;
     text-align: center;
-	padding-top: 30px;
+	padding-top: 0;	
 }
 
 div h1{
     margin: 0;
     font-size: 4rem;
     color:white;
-	margin-bottom: 30px;
-	margin-top: 90px;
 	align-content: center;
 	flex-wrap: wrap;
-	padding-top:50px;
+	padding-top:100px;
 }
 div h2{
     margin: 0;
@@ -39,6 +37,7 @@ a:hover{
 	background-color: gray;
 	transition: all 0.3s ease-in-out;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 

@@ -4,10 +4,17 @@
   "private": true,
   "dependencies": {
     "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
     "bootstrap": "^4.4.1",
     "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.7.3",
     "jquery": "^3.4.1",
     "nodemailer": "^2.7.2",
+    "nodemailer-mailgun-transport": "^2.0.0",
+    "path": "^0.12.7",
     "popper.js": "^1.16.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.1",
@@ -33,7 +40,21 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "nodemon": "^2.0.2",
     "redux-devtools": "^3.5.0"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LumaLutfi/Protfolio-in-React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LumaLutfi/Protfolio-in-React/issues"
+  },
+  "homepage": "https://github.com/LumaLutfi/Protfolio-in-React#readme"
 }

@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import {Tabs, Tab, Grid, Cell, Card, CardTitle,CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
+import {Tabs, Tab, Card, CardTitle,CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
 import './css/Projects.css';
 
 
@@ -32,7 +32,7 @@ constructor(props){
             </Card> 
             {/*React Project*/}
             <Card shadow={5} style={{minWidth:'250px',margin:'50px',display:'inline-block'}}>
-                <CardTitle style={{color:'#fff', height:'176px',background:'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/cover'}}>
+                <CardTitle style={{color:'#fff', height:'176px',background:'url(https://cdn.iconscout.com/icon/free/png-256/react-1-282599.png) center/cover'}}>
                     React Project#2</CardTitle>
                     <CardText className="projects-text"> 
                         I develped my Portfolio using ReactJs and I installed some libraries such as
@@ -153,21 +153,22 @@ constructor(props){
         }
     render(){
         return(
-            <div className="category-tabs">
-            <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
+            <div>
+            <Tabs className="category-tabs"
+            activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
             <Tab>JavaScript</Tab>
             <Tab>WordPress</Tab>
             {/* <Tab>WordPress</Tab>
             <Tab>WordPress</Tab> */}
             </Tabs>
+            
             <section>
-                <Grid className='projects-grid'>
-                <Cell col={12}>
-                    <div>{this.toggleCategories()}</div>
-                </Cell>
-                </Grid>
+
+                    <div >{this.toggleCategories()}</div>
+                
             </section>
             </div>
+        
         )
     }
 

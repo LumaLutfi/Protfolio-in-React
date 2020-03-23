@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Services = (props) =>(
-    <div className="main-content">
-        <div className="container">
-            <h3>Services Page</h3>
+    <div style={{paddingTop:'15em'}}>
+        <div style={{margin:'0', padding:'0'}}>
+            <h3>Services Page is under construction!!</h3>
         </div>
     </div>
 );
